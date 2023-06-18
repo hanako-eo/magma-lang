@@ -103,6 +103,7 @@ peg::parser!(pub grammar parser() for str {
 });
 
 mod tests {
+    #[allow(unused_imports)]
     use super::*;
 
     #[test]
